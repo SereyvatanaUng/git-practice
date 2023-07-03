@@ -1,49 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 /* font-family: 'Big Shoulders Display', cursive; */
 /* font-family: 'Lexend Deca', sans-serif; */
 
 :root {
-    /* color */
-    --orange: hsl(31, 77%, 52%);
-    --dark-cyan: hsl(184, 100%, 22%);
-    --darker-cyan: hsl(179, 100%, 13%);
+  /* color */
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --darker-cyan: hsl(179, 100%, 13%);
 
-    /* font family */
-    --ff1: 'Big Shoulders Display', cursive;
-    --ff2: 'Lexend Deca', sans-serif;
+  /* font family */
+  --ff1: "Big Shoulders Display", cursive;
+  --ff2: "Lexend Deca", sans-serif;
 
-    /* spacing */
-    --pd: 2em;
-    --mg1: 1em;
-    --mg2: 2em;
+  /* spacing */
+  --pd: 2em;
+  --mg1: 1em;
+  --mg2: 2em;
 }
 
 /* ================== css reset ================== */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, p {
-    font-size: 1rem;
-    font-weight: 400;
+h1,
+h2,
+p {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 /* ================== start here ================== */
 body {
-    min-height: 100vh;
-    max-width: 1440px;
-    min-width: 375px;
+  min-height: 100vh;
+  max-width: 1440px;
+  min-width: 375px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* layout */
 .container {
-    display: flex;
+  display: flex;
 }
 
 /* general styling */
@@ -69,7 +71,7 @@ body {
   font-family: var(--ff2);
   color: white;
   line-height: 150%;
-  opacity: .8;
+  opacity: 0.8;
   padding-right: 1.5em;
   margin-bottom: 4em;
 }
@@ -86,3 +88,18 @@ body {
 }
 
 /* each cards styling */
+.suvs {
+  background-color: var(--dark-cyan);
+}
+
+.suvs button {
+  color: var(--dark-cyan);
+}
+
+.luxury {
+  background-color: var(--darker-cyan);
+}
+
+.luxury button {
+  color: var(--darker-cyan);
+}
