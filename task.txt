@@ -1,0 +1,6 @@
+issue2. handle the layout of cards (panha)
+issue3. style carda generally (vatana)
+issue4. style each cards with color (sun)
+
+issue4(release). beta deploy and test (assign everyone)
+issue5(hotfix). make layout responsive (sun)
